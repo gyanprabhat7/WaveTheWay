@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #2b2828;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #868e8f;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .hero h2 {
+    margin-top: 0;
+  }
+  
+  .cta {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    }
+    
+    .cta:hover {
+    background-color: #555;
+    }
+    
+    .features {
+    margin-bottom: 50px;
+    color: #fff;
+    }
+    
+    .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    }
+    
+    .features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .screenshots {
+    margin-bottom: 50px;
+    color: #fff;
+    }
+    
+    .screenshots h3 {
+    text-align: center;
+    }
+    
+    .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    }
+    
+    .reviews {
+    margin-bottom: 50px;
+    color: #fff;
+    }
+    
+    .reviews ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #796a6a;
+    }
+    
+    .reviews li {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    }
+    
+    blockquote {
+    font-style: italic;
+    margin: 0;
+    }
+    
+    cite {
+    font-style: normal;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
